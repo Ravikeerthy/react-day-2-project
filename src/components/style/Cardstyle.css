@@ -1,0 +1,33 @@
+#cardAlign{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+#mainAlign{
+    background-color: blue;
+    margin: 50px;
+    padding: 30px;
+}
+#highlight{
+    pointer-events: auto;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+#highlight:hover{
+    opacity: 1;
+    transform: scale(1.02);
+}
+#mainAlign:hover #highlight:not(:hover){
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+li{
+    margin: 20px;
+}
+i{
+    margin-right: 20px;
+}
+button{
+    margin: 15px;
+}
