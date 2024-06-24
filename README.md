@@ -1,5 +1,7 @@
 # React + Vite
 
+This project is a customizable React component that dynamically renders cards based on provided data, featuring conditional icons, Bootstrap integration.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
